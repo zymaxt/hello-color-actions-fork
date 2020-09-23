@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "hello-test",
+      "name": "hellotest",
       "setup": "npm install",
       "run": "npm test",
       "input": "World",
