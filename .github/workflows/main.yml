@@ -22,6 +22,7 @@ jobs:
           CI: true
   deploy:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
